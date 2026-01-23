@@ -10,8 +10,8 @@ data_TEMPL_ATTR
 
     _dictionary.title            TEMPL_ATTR
     _dictionary.class            Template
-    _dictionary.version          1.4.11
-    _dictionary.date             2025-05-19
+    _dictionary.version          2.0.0
+    _dictionary.date             2026-01-23
     _dictionary.uri              https://raw.githubusercontent.com/COMCIFS/cif_core/master/templ_attr.cif
     _dictionary.ddl_conformance  4.2.0
     _description.text
@@ -52,21 +52,6 @@ save_atom_site_label
      loop_
     _description_example.case   C12     Ca3g28     Fe3+17     H*251
                                 C_a_phe_83_a_0  Zn_Zn_301_A_0
-     save_
-
-save_restr_label
-
-    _definition.update           2021-10-25
-    _description.text
-;
-      Labels of atom sites subtending distance or angle. Atom 2 is the apex for
-      angular restraints.
-;
-    _name.linked_item_id       '_atom_site.label'
-    _type.purpose                Encode
-    _type.source                 Assigned
-    _type.container              Single
-    _type.contents               Word
      save_
 
 
@@ -1127,7 +1112,7 @@ save_display_colour
 
        Updated description of _site_symmetry.
 ;
-         1.4.11                   2025-05-19
+         2.0.0                    2026-01-23
 ;
        # Please update the date above and describe the change below until
        # ready for the next release
@@ -1161,4 +1146,6 @@ save_display_colour
        Updated description of _site_symmetry.
 
        Added reference to cartn_matrix and fract_matrix.
+
+       Remove 'restr_label' since it is fully replaced by 'atom_site_id'.
 ;
