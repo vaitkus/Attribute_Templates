@@ -12,7 +12,7 @@ data_TEMPL_ATTR
     _dictionary.class            Template
     _dictionary.version          2.0.0
     _dictionary.date             2026-01-23
-    _dictionary.uri              https://raw.githubusercontent.com/COMCIFS/cif_core/master/templ_attr.cif
+    _dictionary.uri              https://raw.githubusercontent.com/COMCIFS/Attribute_Templates/main/templ_attr.cif
     _dictionary.ddl_conformance  4.2.0
     _description.text
 ;
