@@ -11,7 +11,7 @@ data_TEMPL_ATTR
     _dictionary.title            TEMPL_ATTR
     _dictionary.class            Template
     _dictionary.version          2.0.0
-    _dictionary.date             2026-01-23
+    _dictionary.date             2026-04-20
     _dictionary.uri              https://raw.githubusercontent.com/COMCIFS/Attribute_Templates/main/templ_attr.cif
     _dictionary.ddl_conformance  4.2.0
     _description.text
@@ -769,7 +769,7 @@ save_
 
 save_cromer_mann_coeff
 
-    _definition.update           2023-06-03
+    _definition.update           2026-04-20
     _description.text
 ;
     The set of data items used to define Cromer-Mann coefficients
@@ -789,13 +789,13 @@ save_cromer_mann_coeff
     _type.source                 Assigned
     _type.container              Single
     _type.contents               Real
-    _enumeration.def_index_id  '_atom_type.symbol'
+    _enumeration.def_index_ids   ['_atom_type.symbol']
      save_
 
 
 save_hi_ang_fox_coeffs
 
-    _definition.update           2023-06-03
+    _definition.update           2026-04-20
     _description.text
 ;
     The set of data items used to define Fox et al. coefficients
@@ -813,7 +813,7 @@ save_hi_ang_fox_coeffs
     _type.source                 Assigned
     _type.container              Single
     _type.contents               Real
-    _enumeration.def_index_id  '_atom_type.symbol'
+    _enumeration.def_index_ids   ['_atom_type.symbol']
      save_
 
 
@@ -1112,7 +1112,7 @@ save_display_colour
 
        Updated description of _site_symmetry.
 ;
-         2.0.0                    2026-01-23
+         2.0.0                    2026-04-20
 ;
        # Please update the date above and describe the change below until
        # ready for the next release
@@ -1147,5 +1147,7 @@ save_display_colour
 
        Added reference to cartn_matrix and fract_matrix.
 
-       Remove 'restr_label' since it is fully replaced by 'atom_site_id'.
+       Removed 'restr_label' since it is fully replaced by 'atom_site_id'.
+
+       Switched from _enumeration.def_index_id to _enumeration.def_index_ids.
 ;
