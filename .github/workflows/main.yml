@@ -28,8 +28,8 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - name: Checkout
-        uses: actions/checkout@v4
+      - name: Check out the target repository
+        uses: actions/checkout@v6
 
       # Check syntax of all CIF files
       - name: Check CIF syntax
