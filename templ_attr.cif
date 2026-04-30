@@ -513,7 +513,7 @@ save_cartn_vector
     _definition.update            2021-07-21
     _description.text
 ;
-    The 3x1 translation that is used with _atom_sites_cartn_transform.matrix
+    The 3x1 translation that is used with _atom_sites_Cartn_transform.matrix
     to transform fractional coordinates in the ATOM_SITE category to Cartesian
     coordinates. The axial alignments of this transformation are described
     in _atom_sites_Cartn_transform.axes.
@@ -915,7 +915,7 @@ save_orient_angle
     _description.text
 ;
      Diffractometer angle of a reflection measured at the centre of the
-     diffraction peak and used to determine _diffrn_orient_matrix.UBIJ.
+     diffraction peak and used to determine _diffrn_orient_matrix.UBij.
 ;
     _type.purpose                Measurand
     _type.source                 Recorded
